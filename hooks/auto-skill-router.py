@@ -60,7 +60,7 @@ def main() -> None:
             "hookEventName": "UserPromptSubmit",
             "additionalContext": (
                 "MANDATORY ROUTING: This prompt requires web or freshness-sensitive research. "
-                "Before using direct web tools, invoke /aigeeksearch:aggressive-web-research "
+                "Before using direct web tools, invoke /aigksh:aggressive-web-research "
                 "and follow its workflow (clarify-first, parallel search, confidence scoring, "
                 "conflict log, citation-backed output)."
             ),

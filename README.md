@@ -1,6 +1,6 @@
 # AI Geek Search Plugin
 
-`aigeeksearch` is a Claude Code plugin that forces rigorous web research behavior for volatile facts such as pricing, billing, tokens, credits, and BYOK policy.
+`aigksh` is a Claude Code plugin that forces rigorous web research behavior for volatile facts such as pricing, billing, tokens, credits, and BYOK policy.
 
 ## What it does
 
@@ -31,7 +31,7 @@ claude --plugin-dir ./
 Then invoke:
 
 ```text
-/aigeeksearch:aggressive-web-research
+/aigksh:aggressive-web-research
 ```
 
 For web-search-like prompts (latest/current/trends/pricing/billing/search/find), the hook injects routing context so Claude uses this skill workflow first.
@@ -47,4 +47,4 @@ This repository already follows Claude plugin directory rules:
 - manifest in `.claude-plugin/plugin.json`
 - marketplace index in `.claude-plugin/marketplace.json`
 - skills at plugin root under `skills/`
-- namespaced invocation as `/aigeeksearch:aggressive-web-research`
+- namespaced invocation as `/aigksh:aggressive-web-research`

@@ -1,5 +1,5 @@
 {
-  "name": "aigeeksearch",
+  "name": "aigksh",
   "owner": {
     "name": "tumblecat44"
   },
@@ -8,13 +8,13 @@
   },
   "plugins": [
     {
-      "name": "aigeeksearch",
+      "name": "aigksh",
       "source": {
         "source": "github",
         "repo": "tumblecat44/aigeeksearch"
       },
       "description": "Clarify-first, contradiction-aware web research skill with geek search mode.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "author": {
         "name": "tumblecat44"
       }
