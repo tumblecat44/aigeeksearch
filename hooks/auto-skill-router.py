@@ -61,8 +61,9 @@ def main() -> None:
             "additionalContext": (
                 "MANDATORY ROUTING: This prompt requires web or freshness-sensitive research. "
                 "Before using direct web tools, invoke /aigksh:aggressive-web-research "
-                "and follow its workflow (clarify-first, parallel search, confidence scoring, "
-                "conflict log, citation-backed output)."
+                "and follow its workflow (clarify-first, parallel search, Silicon Valley signal "
+                "network tiers, contradiction-first synthesis, Adopt/Watch/Ignore decisions, "
+                "confidence scoring, conflict log, citation-backed output)."
             ),
         }
     }

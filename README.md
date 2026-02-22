@@ -10,20 +10,24 @@
 - Perform contradiction-seeking checks
 - Output table + evidence log + conflict log + confidence score
 - Auto-route web-search-like prompts through the plugin skill via `UserPromptSubmit` hook
+- Use a Silicon Valley signal network (official launches -> build signals -> market context -> social sentiment)
+- Force trend outputs into `Adopt now / Watch / Ignore` decisions with weekly actions
 
 ## Install
 
-Use Claude Code plugin install with this repository URL:
+First add your plugin marketplace, then install this plugin:
 
 ```text
-/plugin install https://github.com/tumblecat44/aigeeksearch
+/plugin marketplace add <marketplace-url>
+/plugin install aigksh
 ```
 
 If you installed an older plugin name first, remove it and reinstall:
 
 ```text
 /plugin uninstall aigeeksearch
-/plugin install https://github.com/tumblecat44/aigeeksearch
+/plugin uninstall aigksh
+/plugin install aigksh
 ```
 
 After installation, restart Claude Code.
