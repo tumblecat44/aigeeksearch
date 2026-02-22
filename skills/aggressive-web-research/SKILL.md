@@ -1,6 +1,6 @@
 ---
 name: aggressive-web-research
-description: This skill should be used when the user asks for exhaustive web research, current pricing and billing model checks, source-backed comparisons, or asks to avoid shallow and overly safe summaries. It enforces clarify-first behavior, parallel search, and citation confidence scoring.
+description: This skill should be used when the user asks for exhaustive web research, latest or current trends, pricing and billing model checks, source-backed comparisons, or asks to avoid shallow and overly safe summaries. It enforces clarify-first behavior, parallel search, and citation confidence scoring.
 version: 0.1.0
 user-invocable: true
 disable-model-invocation: false

@@ -9,11 +9,14 @@
 - Prioritize first-party sources
 - Perform contradiction-seeking checks
 - Output table + evidence log + conflict log + confidence score
+- Auto-route web-search-like prompts through the plugin skill via `UserPromptSubmit` hook
 
 ## Plugin structure
 
 - `.claude-plugin/plugin.json`
 - `.claude-plugin/marketplace.json`
+- `hooks/hooks.json`
+- `hooks/auto-skill-router.py`
 - `skills/aggressive-web-research/SKILL.md`
 - `skills/aggressive-web-research/references/*`
 - `skills/aggressive-web-research/templates/*`
@@ -30,6 +33,12 @@ Then invoke:
 ```text
 /aigeeksearch:aggressive-web-research
 ```
+
+For web-search-like prompts (latest/current/trends/pricing/billing/search/find), the hook injects routing context so Claude uses this skill workflow first.
+
+## After install/update
+
+Restart Claude Code after install or plugin updates so hooks and skill metadata are reloaded.
 
 ## Notes for marketplace
 
