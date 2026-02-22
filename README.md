@@ -11,6 +11,23 @@
 - Output table + evidence log + conflict log + confidence score
 - Auto-route web-search-like prompts through the plugin skill via `UserPromptSubmit` hook
 
+## Install
+
+Use Claude Code plugin install with this repository URL:
+
+```text
+/plugin install https://github.com/tumblecat44/aigeeksearch
+```
+
+If you installed an older plugin name first, remove it and reinstall:
+
+```text
+/plugin uninstall aigeeksearch
+/plugin install https://github.com/tumblecat44/aigeeksearch
+```
+
+After installation, restart Claude Code.
+
 ## Plugin structure
 
 - `.claude-plugin/plugin.json`
