@@ -1,0 +1,8 @@
+{
+  "name": "aigeeksearch",
+  "description": "Aggressive web research plugin for clarification-first, citation-backed, contradiction-aware search.",
+  "version": "0.1.0",
+  "author": {
+    "name": "tumblecat44"
+  }
+}
