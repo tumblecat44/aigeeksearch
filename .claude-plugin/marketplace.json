@@ -1,0 +1,23 @@
+{
+  "name": "aigeeksearch",
+  "owner": {
+    "name": "tumblecat44"
+  },
+  "metadata": {
+    "description": "Aggressive citation-backed web research tools for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "aigeeksearch",
+      "source": {
+        "source": "github",
+        "repo": "tumblecat44/aigeeksearch"
+      },
+      "description": "Clarify-first, contradiction-aware web research skill with geek search mode.",
+      "version": "1.0.0",
+      "author": {
+        "name": "tumblecat44"
+      }
+    }
+  ]
+}

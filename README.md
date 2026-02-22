@@ -13,6 +13,7 @@
 ## Plugin structure
 
 - `.claude-plugin/plugin.json`
+- `.claude-plugin/marketplace.json`
 - `skills/aggressive-web-research/SKILL.md`
 - `skills/aggressive-web-research/references/*`
 - `skills/aggressive-web-research/templates/*`
@@ -35,5 +36,6 @@ Then invoke:
 This repository already follows Claude plugin directory rules:
 
 - manifest in `.claude-plugin/plugin.json`
+- marketplace index in `.claude-plugin/marketplace.json`
 - skills at plugin root under `skills/`
 - namespaced invocation as `/aigeeksearch:aggressive-web-research`
